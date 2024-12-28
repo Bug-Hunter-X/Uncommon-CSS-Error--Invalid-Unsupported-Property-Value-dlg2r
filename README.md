@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon CSS bug involving an invalid or unsupported property/value. The bug is subtle and might not be immediately apparent, as it doesn't throw an error in the browser console.  The solution provides a corrected version of the CSS.
