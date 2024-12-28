@@ -1,0 +1,21 @@
+/* bug.css
+This CSS contains an invalid property that causes unexpected results without error message. 
+*/
+.element {
+  display: flex;
+  invalid-property: 10px; /* This is the invalid property */
+  width: 200px;
+  height: 100px;
+  background-color: lightblue; 
+}
+
+/* bugSolution.css
+This CSS corrects the error. The invalid property has been removed or replaced with a valid one. 
+*/
+.element {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  background-color: lightblue; 
+  /* The solution here depends on the intention of the invalid property. This example just removes it.  */
+}
